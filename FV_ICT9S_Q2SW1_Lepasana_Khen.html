@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Characters</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        .character-info {
+            margin-top: 20px;
+        }
+        .character-image {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+        .outlined-text {
+            color: #ffffff; /* White text color */
+            text-shadow: 
+                -1px -1px 0 #000,  /* Top left shadow */
+                 1px -1px 0 #000,  /* Top right shadow */
+                -1px  1px 0 #000,  /* Bottom left shadow */
+                 1px  1px 0 #000;  /* Bottom right shadow */
+        }
+    </style>
+</head>
+<body>
+
+<header class="container text-center my-5">
+    <h1>My Favorite Characters</h1>
+    <p class="lead">A list of my favorite cartoon characters</p>
+</header>
+
+<main class="container">
+
+    <section class="character-info row mb-4">
+        <div class="col-md-4">
+            <img src="https://static.wikia.nocookie.net/theamazingworldofgumball/images/c/c0/Season_3_Gumball.png/revision/latest/scale-to-width-down/200?cb=20221106204632" alt="Gumball Waterson" class="character-image img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h2><span style="color: #43c4da;">Gumball</span></h2>
+            <p>Blue Silly Cat</p>
+            <p>Learn more about <a href="https://theamazingworldofgumball.fandom.com/wiki/Gumball_Watterson" target="_blank">Gumball</a>.</p>
+        </div>
+    </section>
+
+    <section class="character-info row mb-4">
+        <div class="col-md-4">
+            <img src="https://static.wikia.nocookie.net/webarebears/images/7/7d/Icee.png/revision/latest/scale-to-width-down/1000?cb=20160620180135" alt="Ice Bear" class="character-image img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h2 class="outlined-text"><span style="color: #ffffff;">Ice Bear</span></h2>
+            <p>Very cool white Polar bear</p>
+            <p>Learn more about <a href="https://webarebears.fandom.com/wiki/Ice_Bear" target="_blank">Ice Bear</a>.</p>
+        </div>
+    </section>
+
+    <section class="character-info row mb-4">
+        <div class="col-md-4">
+            <img src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/3/3b/Jakesalad.png/revision/latest/scale-to-width-down/1000?cb=20240905203644" alt="Jake the Dog" class="character-image img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h2><span style="color: #F5BB12;">Jake the Dog</span></h2>
+            <p>Very flexible Yellow dog</p>
+            <p>Learn more about <a href="https://adventuretime.fandom.com/wiki/Jake" target="_blank">Jake</a>.</p>
+        </div>
+    </section>
+
+    <h3 class="mt-5">Character Facts</h3>
+    <table class="table table-striped my-3">
+        <thead>
+            <tr>
+                <th>Character</th>
+                <th>Closest person</th>
+                <th>Goofiness out of 10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gumball Waterson</td>
+                <td>Darwin</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Ice Bear</td>
+                <td>Grizz and Panda</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Jake the Dog</td>
+                <td>Fin the Human</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
